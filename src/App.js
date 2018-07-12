@@ -7,6 +7,7 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {}
+
     // console.log("This is my initializer")
 
     // const movies = [
@@ -80,6 +81,7 @@ class App extends Component {
             </tr>
           </tbody>
         </table>
+        
 
         <input  style={{
           fontSize: 24,
@@ -97,3 +99,7 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+
